@@ -1,0 +1,31 @@
+    /* Required SCSS Styling */
+
+    *[data-ur-set="tabs"] {
+      *[data-ur-tabs-component='button'] {
+        opacity: 0.5;
+      }
+      *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
+        opacity: 1.0;
+      }
+      *[data-ur-tabs-component='content'] {
+        display:none;
+      }
+      *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
+        display: block;
+      }
+    }
+
+    /* Required CSS Styling */
+
+    *[data-ur-set="tabs"] *[data-ur-tabs-component='button'] {
+      opacity: 0.5;
+    }
+    *[data-ur-set="tabs"] *[data-ur-tabs-component='button'][data-ur-state='enabled'] {
+      opacity: 1.0;
+    }
+    *[data-ur-set="tabs"] *[data-ur-tabs-component='content'] {
+      display:none;
+    }
+    *[data-ur-set="tabs"] *[data-ur-tabs-component='content'][data-ur-state='enabled'] {
+      display: block;
+    }
