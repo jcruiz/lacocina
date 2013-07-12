@@ -27,7 +27,7 @@ $('./body') {
 				$(".//ul[contains(@class, 'sub-menu')]"){
 					attributes(data-ur-tabs-component: "content",
 						data-ur-tab-id: %ind)
-				}
+				} 
           	}     
 		}
 	} 		
